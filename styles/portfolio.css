@@ -1,0 +1,9 @@
+/* shared style */
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* nab related styles */
+nav {
+display: flex;
+}
