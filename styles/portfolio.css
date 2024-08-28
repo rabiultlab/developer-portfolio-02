@@ -201,10 +201,44 @@ main section {
     font-weight: 400;
     line-height: 28px;
 }
-.resume-item{
+
+.resume-item {
     margin-bottom: 60px;
 }
-.download-cv{
+
+.download-cv {
     text-align: center;
     margin-top: 20px;
+}
+
+/* footer section styles */
+footer {
+    display: flex;
+    background-color: #FFF8F3;
+    padding: 130px 230px;
+    margin-top: 100px;
+    gap: 100px;
+}
+
+.footer-colum {
+    width: 50%;
+}
+
+.contact input[type="text"],input[type="email"],
+textarea {
+    display: block;
+    margin-top: 24px;
+    padding: 18px 30px;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    border: 0;
+    border-radius: 5px;
+    width: 100%;
+}
+.social-links a{
+    margin-right: 24px;
+}
+.footer-colum h3{
+    text-align: left;
 }
